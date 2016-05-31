@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package twoSum
 
 func twoSum(nums []int, target int) []int {
 
@@ -14,15 +10,4 @@ func twoSum(nums []int, target int) []int {
 		}
 	}
 	return nil
-}
-
-func intersect(nums1 []int, nums2 []int) []int {
-
-}
-
-func main() {
-	nums := []int{3, 2, 4}
-	target := 6
-	result := twoSum(nums, target)
-	fmt.Println(result)
 }
