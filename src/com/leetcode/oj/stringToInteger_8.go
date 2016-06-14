@@ -32,7 +32,7 @@ func myAtoi(str string) int {
 	var ret int64 = 0
 	var base int64 = 10
 	for i < n && unicode.IsDigit(rune(str2[i])) {
-		ret = ret*base + int64(str2[i]-'0')
+		ret = ret*base + int64(str2[i]) - int64('0')
 		if signed == 1 && ret > INT_MAX {
 			return INT_MAX
 		} else if signed == -1 && ret > (-INT_MIN) {

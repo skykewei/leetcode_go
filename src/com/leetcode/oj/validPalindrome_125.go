@@ -5,7 +5,7 @@ import (
 )
 
 //oj https://leetcode.com/problems/valid-palindrome/
-func isPalindrome(s string) bool {
+func isPalindrome_125(s string) bool {
 	r := s
 	i, j := 0, len(r)-1
 	for i < j {
