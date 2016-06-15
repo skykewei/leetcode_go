@@ -1,4 +1,4 @@
-package twoSum
+package oj
 
 func twoSum(nums []int, target int) []int {
 
